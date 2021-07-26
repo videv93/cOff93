@@ -1,18 +1,28 @@
 <html>
-    <head>Cách sử dụng babel loader</head>
+    <head>
+        <link rel="stylesheet" href="./index.css">
+    </head>
     <body>
-        <h1>Tải thử viện babel-plugin-module-resolver từ npmjs.com</h1>
-        <p>Tạo file config .babelrc. Sau đó copy/paste đoạn code sau </p>
-        <pre>{
-            "plugins": [
-              ["module-resolver", {
-                "root": ["./src"],
-                "alias": {
-                  "test": "./test",
-                }
-              }]
-            ]
-          }
-        </pre>
+        <div class="container">
+            <div>
+                <img src="" />
+                <h1 class="text-center">Tran Trung Vi</h1>
+                <h1>Tải thử viện babel-plugin-module-resolver từ npmjs.com</h1>
+                <p>Tạo file config .babelrc. Sau đó copy/paste đoạn code sau </p>
+                <pre>
+                    {
+                        "plugins": [
+                            ["module-resolver", {
+                                "root": ["./src"],
+                                "alias": {
+                                "test": "./test",
+                                }
+                            }]
+                        ]
+                    }
+                </pre>
+                <a href="./index.html">← Back to home</a>
+            </div>
+        </div>
     </body>
 </html>
